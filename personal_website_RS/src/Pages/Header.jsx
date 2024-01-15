@@ -1,5 +1,5 @@
 import {React,useState} from 'react'
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   function toggle() {
@@ -17,11 +17,11 @@ export default function Header() {
 
    </button>
    <ul class="hidden lg:flex ml-auto my-auto text-2xl">
-    <li><Link class="px-4 font-bold select-none  hover:text-cyan-400">Skills</Link></li>
-    <li><Link class="px-4 font-bold select-none  hover:text-cyan-400">Education</Link></li>
-    <li><Link class="px-4 font-bold select-none  hover:text-cyan-400">Project</Link></li>
-    <li><Link class="px-4 font-bold select-none  hover:text-cyan-400">Blogs</Link></li>
-    <li><Link class="px-4 font-bold select-none  hover:text-cyan-400">Contact</Link></li>
+    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Skills</a></li>
+    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Education</a></li>
+    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Project</a></li>
+    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Blogs</a></li>
+    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Contact</a></li>
    </ul>
     </div>
     <hr class="mt-4 mb-2"></hr>
