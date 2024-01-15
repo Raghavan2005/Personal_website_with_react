@@ -1,0 +1,5 @@
+![image](https://github.com/Raghavan2005/Personal_website_with_react/assets/78393373/3284adc7-6916-41f4-a4d6-815601cbe7f4)
+![image](https://github.com/Raghavan2005/Personal_website_with_react/assets/78393373/5320e83e-e13d-4b4e-ad02-2f585353af50)
+![image](https://github.com/Raghavan2005/Personal_website_with_react/assets/78393373/080b9640-0ba3-4954-8726-9e02d447b848)
+![image](https://github.com/Raghavan2005/Personal_website_with_react/assets/78393373/79f32bd0-d7a1-4f5c-b4bd-2435e40e98fa)
+![image](https://github.com/Raghavan2005/Personal_website_with_react/assets/78393373/29274882-27c6-4731-a6b9-7066dea2d8ef)
