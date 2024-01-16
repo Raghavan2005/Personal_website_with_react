@@ -10,7 +10,7 @@ export default function Projects() {
                 <div className='text-center opacity-50 text-[25px]'>Browse My Recent</div>
                 <div className='text-center font-bold  text-[35px]'>Projects</div>
 
-                <section className='mt-10 grid grid-cols-4 gap-4'>
+                <section className='mt-10 grid lg:grid-cols-4 gap-4'>
                     {/* p 1 */}
                     <div class="max-w-sm  border border-gray-200 rounded-lg shadow">
                         <a>
