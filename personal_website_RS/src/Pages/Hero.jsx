@@ -6,7 +6,7 @@ export default function Hero() {
 
 
     return (
-        <div className='mt-20 '>
+        <section id='hero'  className='mt-20 '>
             <div className="flex items-center justify-center">
                 <img className="w-96 h-96  rounded-full border-4 border-yellow-300" src={myImage} alt="Loading" />
             </div>
@@ -36,7 +36,7 @@ export default function Hero() {
                 <a target='_black' href='https://cyberspherestudio.com' className='border-2 text-[20px] p-2 ml-auto mr-5 pr-5 font-bold  pl-5 rounded-lg  hover:bg-blue-600'>View CV</a>
                 <a target='_black' href='https://cyberspherestudio.com' className='border-2 text-[20px] mr-auto p-2 pr-5 font-bold  pl-5 rounded-lg hover:bg-blue-600 '>Contact Info</a>
             </div>
-            <hr></hr>
-        </div>
+            <hr className='opacity-50 mt-20' ></hr>
+        </section >
     )
 }

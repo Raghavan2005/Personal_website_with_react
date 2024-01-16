@@ -1,6 +1,7 @@
-import {React,useState} from 'react'
+import {React,useState } from 'react'
 
-export default function Header() {
+
+export default function Header(props) {
   const [isOpen, setIsOpen] = useState(false);
   function toggle() {
     setIsOpen((isOpen) => !isOpen);
@@ -16,13 +17,14 @@ export default function Header() {
 </svg>
 
    </button>
+   
    <ul class="hidden lg:flex ml-auto my-auto text-2xl">
-    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Skills</a></li>
-    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Education</a></li>
-    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Project</a></li>
-    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Blogs</a></li>
-    <li><a class="px-4 font-bold select-none  hover:text-cyan-400">Contact</a></li>
+    <li><a to="#about" class="px-4 font-bold select-none  hover:text-cyan-400">About</a ></li>
+    <li><a onClick={props.fun} class="px-4 font-bold select-none  hover:text-cyan-400">Skills</a></li>
+    <li><a to="#project" class="px-4 font-bold select-none  hover:text-cyan-400">Project</a ></li>
+    <li><a to="#contact" class="px-4 font-bold select-none  hover:text-cyan-400">Contact</a ></li>
    </ul>
+   
     </div>
     <hr class="mt-4 mb-2"></hr>
     <div class={isOpen?'visible':'hidden'}>
@@ -35,9 +37,6 @@ export default function Header() {
       </ul>
       </div>
     </div>
-
-   
-
     </div>
   )
 }

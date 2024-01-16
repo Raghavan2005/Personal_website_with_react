@@ -8,8 +8,8 @@ import { DiMongodb } from "react-icons/di";
 import { TbBrandVscode } from "react-icons/tb";
 export default function Skills() {
     return (
-        <div>
-            <div className='mt-10'>
+        <section  id='skill'>
+            <div className='mt-20'>
                 <div className='text-center opacity-50 text-[25px]'>Explore my</div>
                 <div className='text-center font-bold  text-[35px]'>Skills</div>
                 <div className='lg:flex sm:space-y-3 text-center  items-center mt-10'>
@@ -52,7 +52,7 @@ export default function Skills() {
 
                 </div>
             </div>
-            <hr className='mt-10'></hr>
-        </div>
+            <hr id='project' className='mt-20 opacity-50'></hr>
+        </section >
     )
 }

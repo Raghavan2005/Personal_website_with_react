@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-    <div className="text-center mt-10">
+    <section id='contact'>
+    <div className="text-center mt-40 p-10">
       <div className="opacity-50 text-3xl mb-4">Feel free to</div>
       <div className="font-bold text-4xl mb-5">Contact Me</div>
 
-      <div className="border w-96 rounded-md p-2 mx-auto"> {/* Adjusted padding */}
+      <div className="border w-96 mt-20 rounded-md p-10 mx-auto"> {/* Adjusted padding */}
         <p className="text-xl mb-2">Email: Raghavan2005@zohomail.in</p> {/* Adjusted margin */}
 
         <div className="flex justify-center items-center mb-2"> {/* Adjusted margin */}
@@ -45,7 +45,7 @@ export default function Contact() {
         {/*  */}
       </div>
     </div>
-    <hr className="mt-10"/>
-  </div >
+    <hr className="mt-60 opacity-50"/>
+  </section  >
 );
 }
