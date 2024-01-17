@@ -10,11 +10,11 @@ export default function Hero() {
     return (
         <section id='hero'  className='mt-20 '>
             <div className="flex items-center justify-center">
-                <img className="w-96 h-96  rounded-full border-4 border-yellow-300" src={myImage} alt="Loading" />
+                <img className="w-96 h-96 sm:h-1/2  rounded-full border-4 border-yellow-300" src={myImage} alt="Loading" />
             </div>
             <div className='m-8'>
                 <p className='text-[30px] italic text-center'>Hey , I am </p>
-                <p className=' text-[60px]  font-bold text-center'>
+                <p className=' text-[60px] sm:text-[30px]  font-bold text-center'>
                     Raghavan S
                 </p>
                 <div className='text-center pt-4 text-yellow-300'>

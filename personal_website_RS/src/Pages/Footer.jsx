@@ -17,6 +17,7 @@ export default function Footer() {
                  <p className='pl-3 pr-3'>Copyright ©</p>
 
                 <p > All rights reserved.</p>
+                <div className='lg:hidden md:hidden text-center font-bold opacity-20' >Mobile Site</div>
             </div>
 
         </div>
