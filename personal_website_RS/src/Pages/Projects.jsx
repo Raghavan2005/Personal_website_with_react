@@ -8,11 +8,11 @@ export default function Projects() {
         <section  >
             <div className='mt-10'>
                 <div className='text-center opacity-50 text-[25px]'>Browse My Recent</div>
-                <div className='text-center font-bold  text-[35px]'>Projects</div>
+                <div className='text-center font-bold  text-[35px] '>Projects</div>
 
                 <section className='mt-10 grid lg:grid-cols-4 gap-4'>
                     {/* p 1 */}
-                    <div class="max-w-sm  border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm  border border-gray-500 rounded-lg shadow">
                         <a>
                             <img class="rounded-t-lg" src="https://play-lh.googleusercontent.com/sdkR0tMVI4G3EdP912E4ukAdo6phHEYnXKvTcJU6zDUawghn8IlFHMtvbU6HjXjaUQ=w240-h480-rw" alt="loading" />
                         </a>
@@ -36,7 +36,7 @@ export default function Projects() {
                         </div>
                     </div>
                     {/* p2 */}
-                    <div class="max-w-sm  border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm  border border-gray-500 rounded-lg shadow">
                         <a>
                             <img class="rounded-t-lg" src={html} alt="loading" />
                         </a>
@@ -61,7 +61,7 @@ export default function Projects() {
                     </div>
 
                     {/* p3 */}
-                    <div class="max-w-sm  border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm  border border-gray-500 rounded-lg shadow">
                         <a>
                             <img class="rounded-t-lg" src={api} alt="loading" />
                         </a>
@@ -85,7 +85,7 @@ export default function Projects() {
                         </div>
                     </div>
                     {/* p4 */}
-                    <div class="max-w-sm  border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm  border border-gray-500 rounded-lg shadow">
                         <a>
                             <img class="rounded-t-lg" src={php} alt="loading" />
                         </a>
@@ -109,7 +109,7 @@ export default function Projects() {
                         </div>
                     </div>
                     {/* p5 */}
-                    <div class="max-w-sm  border border-gray-200 rounded-lg shadow">
+                    <div class="max-w-sm  border border-gray-500 rounded-lg shadow">
                         <a>
                             <img class="rounded-t-lg" src={cal} alt="loading" />
                         </a>

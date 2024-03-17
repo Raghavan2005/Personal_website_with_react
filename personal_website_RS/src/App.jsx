@@ -8,7 +8,7 @@ import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
 import Footer from './Pages/Footer'
 import { Link } from 'react-router-dom'
-
+import blog from './Pages/Blog'
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   function toggle() {
@@ -60,6 +60,7 @@ function App() {
               <li><a href="#about"  class="px-4 font-bold select-none  hover:text-cyan-400">About</a ></li>
               <li><a href="#skill"  class="px-4 font-bold select-none  hover:text-cyan-400">Skills</a></li>
               <li><a href="#project"  class="px-4 font-bold select-none  hover:text-cyan-400">Project</a></li>
+              <li><a href='https://medium.com/@funwithmetamil' target="_blank" class="px-4 font-bold select-none  hover:text-cyan-400">Blogs</a></li>
               <li><a href="#contact" class="px-4 font-bold select-none  hover:text-cyan-400">Contact</a ></li>
             </ul>
 
@@ -70,6 +71,7 @@ function App() {
             <li><a href="#about"  class="px-4 font-bold select-none  hover:text-cyan-400">About</a ></li>
               <li><a href="#skill"  class="px-4 font-bold select-none  hover:text-cyan-400">Skills</a></li>
               <li><a href="#project"  class="px-4 font-bold select-none  hover:text-cyan-400">Project</a></li>
+              <li><a href='https://medium.com/@funwithmetamil' target="_blank"  class="px-4 font-bold select-none  hover:text-cyan-400">Blogs</a ></li>
               <li><a href="#contact" class="px-4 font-bold select-none  hover:text-cyan-400">Contact</a ></li>
             </ul>
           </div>

@@ -14,8 +14,8 @@ export default function Hero() {
             </div>
             <div className='m-8'>
                 <p className='text-[30px] italic text-center'>Hey , I am </p>
-                <p className=' text-[60px] sm:text-[30px]  font-bold text-center'>
-                    Raghavan S
+                <p className=' text-[60px] sm:text-[30px]  font-bold text-center '>
+                    Raghavan 
                 </p>
                 <div className='text-center pt-4 text-yellow-300'>
                     <TypeAnimation

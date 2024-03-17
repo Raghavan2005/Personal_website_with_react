@@ -11,7 +11,7 @@ export default function Skills() {
         <section  id='skill'>
             <div className='mt-20'>
                 <div className='text-center opacity-50 text-[25px]'>Explore my</div>
-                <div className='text-center font-bold  text-[35px]'>Skills</div>
+                <div className='text-center font-bold  text-[35px] '>Skills</div>
                 <div className='lg:flex sm:space-y-3 text-center  items-center mt-10'>
                     <div className='border p-4 rounded-md lg:mx-auto'>
                         <p className='text-[20px] text-yellow-400 font-bold p-2'>Full Stack Developer</p>
